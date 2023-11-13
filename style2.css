@@ -1,0 +1,357 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html,body{
+  overflow-x: hidden;
+}
+img.frstlog {
+  width: 100%;
+  height: 30vh;
+}  
+
+
+
+
+
+
+
+
+h#wel {
+  position: absolute;
+  margin-top: -11%;
+  font-size: 31px;
+  text-align: center;
+  /* width: 100%; */
+  animation-name: welcome;
+  color: #000000;
+  font-weight: bolder;
+  animation-duration: 10s;
+  /* text-shadow: 10px 10px 8px rgb(55, 0, 255); */
+  position: absolute;
+  margin-left: 25%;
+
+}
+
+@keyframes welcome {
+  0% {
+      margin-left: -100%;
+  }
+
+  100% {
+      margin-left: 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.frst1log {
+  width: 15%;
+  height: 15vh;
+  float: inline-end;
+  margin: -19px 30px;
+}
+.galleries{
+  height: 80vh;
+  width: 90%;
+  display: grid;
+  
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  margin-left: 5%;
+  margin-top: 25%;
+  
+}
+.homepage{
+  background-image: url('/images/collegebg.webp');
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+}
+img.frstlog {
+    width: 100%;
+    height: 30vh;
+}
+img.frst1log {
+    width: 15%;
+    height: 15vh;
+    float: inline-end;
+    margin: -19px 30px;
+}
+input[type=button]{
+    background-color: #0004ffa1;
+    width: 11%;
+    margin-top: 1%;
+    color: aliceblue;
+    border: none;
+    margin-left: 6px;
+    border-radius: 11px;
+    font-size: 20px;
+    height: 35px;
+}
+input[type=button]:hover{
+background-color: rgb(4, 4, 156);
+transition: 0.5s;
+cursor: pointer;
+
+
+}
+#M{
+    width: 22%;
+}
+#U{
+    width: 20%;
+}
+div#butn {
+    background: white;
+    height: 13vh;
+    margin-top: -0.33%;
+}
+.secbtn  {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    color: midnightblue;
+    margin-top: -24px;
+}
+.secbtn a:hover{
+    color: black;
+    text-decoration: underline ;
+    text-decoration-thickness: 1px;
+    transition: 2s ease-in-out;
+    text-decoration-color: rgb(29, 29, 29);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color:  rgb(224, 30, 30);
+    height: 5.5vh ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navi1 a{
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 10px;
+
+    margin-left: 9px;
+    /* border: 1px solid; */
+}
+.navi1 a:hover{
+    /* color: rgb(175, 172, 172); */
+    text-decoration: underline ;
+    text-decoration-thickness: 2px;
+    transition: 2s ease-in-out;
+    text-decoration-color: rgb(255, 255, 255);
+}
+ul {
+    display: flex;
+    width: 100%;
+    
+    gap: 10px;
+    font-size: 25px;
+    list-style: none;
+}
+.gall{
+  /* border: 1px solid; */
+
+  border-radius: 15px;
+  background-color: #b30505;
+  padding: 34px;
+  /* width: 23%; */
+}
+.gall:hover{
+  background: transparent;
+  transition: 0.5s;
+  scale: 103%;
+  border: 1px solid;
+  cursor: pointer;
+
+}
+
+#e1{
+  background-image: url(/images/extra2.jpeg);
+  background-size: cover;
+}
+#e2{
+  background-image: url(/images/bedclass.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#e3{
+  background-image: url(/images/library.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#e4{
+  background-image: url(/images/8533Microbiology\ lab.png);
+  background-position: center;
+  background-size: cover;
+}
+#e5{
+  background-image: url(/images/6040major\ lab.png);
+  background-position: center;
+  background-size: cover;
+}
+#e6{
+  background-image: url(/images/front.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#e7{
+  background-image: url(/images/audito.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#e8{
+  background-image: url(/images/secbg.png);
+  background-position: center;
+  background-size: cover;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+@media(max-width:1075px){
+  nav{
+    display: none;
+  }
+  div#butn {
+    background: white;
+    height: 13vh;
+    /* display: none; */
+    margin-top: -0.33%;
+}
+#M {
+  width: 22%;
+  display: none;
+}
+
+#U {
+  width: 20%;
+  display: none;
+}
+input[type="button"] {
+  display: none;
+}
+.gall{
+  height: 22vh;
+}
+
+}
+@media(max-width:1000px){
+  .gall{
+    height: 22vh;
+  }
+  
+}
+@media(max-width:900px){
+  h#wel {
+    margin: -22% 9%;
+}
+.galleries {
+  margin-top: 35%;
+}
+}
+@media(max-width:800px){
+  .galleries {
+    margin-top: 46%;
+}
+h#wel {
+  margin: -22% 4%;
+  font-size: 30px;
+}
+}
+@media(max-width:700px){
+  .galleries {
+    margin-top: 53%;
+}
+h#wel {
+  margin: -33% 9%;
+  font-size: 24px;
+}
+}
+@media(max-width:650px){
+  .galleries {
+    margin-top: 64%;
+}
+h#wel {
+  font-size: 21px;
+  margin: -40% 7%;
+}
+}
+@media (max-width:600px) {
+  .gall{
+    height: 24vh;
+    width: 75%;
+  }
+
+  .galleries {
+    height: 80vh;
+    width: 90%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin-left: 5%;
+    margin-top: 58%;
+}
+h#wel {
+  font-size: 21px;
+  margin: -40% 7%;
+} 
+}
+@media(max-width:500px){
+  .galleries {
+    margin-top: 77%;
+}
+}
+@media(max-width:400px){
+  .galleries {
+    margin-top: 90%;
+}
+h#wel {
+  font-size: 17px;
+  margin: -53% 0%;
+}
+}
+@media(max-width:350px){
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+h#wel {
+  font-size: 15px;
+}.galleries {
+  margin-top: 93%;
+}
+}

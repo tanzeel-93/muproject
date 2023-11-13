@@ -1,0 +1,1449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p.ee {
+    font-size: 19px;
+    width: 196px;
+    padding:  0% -3%;
+    
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+img.frstlog {
+    width: 100%;
+    height: 30vh;
+}
+
+img.frst1log {
+    width: 15%;
+    height: 15vh;
+    float: inline-end;
+    margin: -19px 30px;
+}
+
+
+input[type=button] {
+    background-color: #0004ffa1;
+    width: 11%;
+    margin-top: 1%;
+    color: aliceblue;
+    border: none;
+    margin-left: 6px;
+    border-radius: 11px;
+    font-size: 20px;
+    height: 35px;
+}
+
+input[type=button]:hover {
+    background-color: rgb(4, 4, 156);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+
+#M {
+    width: 22%;
+}
+
+#U {
+    width: 20%;
+}
+
+div#butn {
+    background: white;
+    height: 13vh;
+}
+
+.secbtn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    color: midnightblue;
+    margin-top: -24px;
+}
+
+.secbtn a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    transition: 2s ease-in-out;
+    text-decoration-color: rgb(29, 29, 29);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: rgb(224, 30, 30);
+    height: 5.5vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navi1 a {
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 10px;
+
+    margin-left: 9px;
+    /* border: 1px solid; */
+}
+
+.navi1 a:hover {
+    /* color: rgb(175, 172, 172); */
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: 2s ease-in-out;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+ul {
+    display: flex;
+    width: 100%;
+
+    gap: 10px;
+    font-size: 25px;
+    list-style: none;
+}
+
+img#slider {
+    position: absolute;
+    width: 60%;
+    margin-left: 0px;
+    height: 68vh;
+}
+#slider2{
+    display: none;
+ }
+.boxaaa {
+    display: none;
+}
+.box {
+    width: 21%;
+    height: 68vh;
+    position: absolute;
+    right: -5%;
+    cursor: pointer;
+    margin-right: 24%;
+    background: #5e60ff;
+    /* float: right; */
+}
+
+pre {
+    font-size: 15px;
+}
+
+.box2a {
+    float: right;
+    color: antiquewhite;
+    width: 19%;
+    /* margin-right: %; */
+    height: 68vh;
+    background: black;
+    font-size: x-large;
+}
+
+.boxa {
+    padding-top: 12%;
+
+    margin-left: 5%;
+}
+
+.boxa:hover {
+    border: 1px solid;
+    width: 230px;
+    cursor: pointer;
+}
+
+.secondpage {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.wel {
+    position: absolute;
+    margin-top: 43%;
+}
+
+h#wel {
+    position: absolute;
+    margin-top: -11%;
+    font-size: 31px;
+    text-align: center;
+    /* width: 100%; */
+    animation-name: welcome;
+    color: #000000;
+    animation-duration: 10s;
+    text-shadow: 10px 10px 8px rgb(55, 0, 255);
+    position: absolute;
+    margin-left: 25%;
+
+}
+
+@keyframes welcome {
+    0% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: 25%;
+    }
+}
+
+p#wel1 {
+    margin-top: -1%;
+    font-size: 23px;
+    color: #000000;
+}
+
+button.e {
+    border: groove;
+    background: #140f3500;
+    color: #000000;
+    width: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 5vh;
+    border-radius: 18px;
+}
+
+button:hover {
+    background: #473e6ec9;
+    transition: 0.9s;
+}
+
+.third {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    background: #281766;
+}
+
+.secretry {
+    width: 30%;
+    background: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+    position: absolute;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 22px;
+    margin-left: 4%;
+}
+
+img#scre {
+    border-radius: 121px;
+    padding-bottom: 2%;
+    display: grid;
+    margin: auto;
+}
+
+h2.secre {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+p#scre {
+    padding: 1% 5%;
+}
+
+.principle {
+    width: 30%;
+    background: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+    position: absolute;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 22px;
+    margin-left: 36%;
+}
+
+img#scre1 {
+    border-radius: 121px;
+    padding-bottom: 2%;
+    height: 32vh;
+    display: grid;
+    margin: auto;
+}
+
+h2.princes {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+p#pirin {
+    padding: 1% 5%;
+}
+
+.hod {
+    width: 30%;
+    background: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+    position: absolute;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 22px;
+    margin-left: 68%;
+}
+
+img#scre2 {
+    border-radius: 121px;
+    padding-bottom: 2%;
+    height: 32vh;
+    display: grid;
+    margin: auto;
+}
+
+h2.hodi {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+p#head {
+    padding: 1% 5%;
+}
+
+.fourthcont {
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+
+    height: 200px;
+    align-content: space-around;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+pre.ee {
+    font-size: 21px;
+    
+}
+
+.grid-container>div {
+    background-color: rgba(107, 92, 243, 0.8);
+    text-align: center;
+    width: 256px;
+    height: 100px;
+    padding: 20px 100px;
+    border-radius: 22px;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+.grid-container>div:hover {
+    background-color: rgb(35, 49, 44);
+    transition: 0.9s;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+
+
+/* The grid container */
+.grid2-container {
+    display: grid;
+    grid-template-areas:
+
+        'left left middle middle right right'
+
+        /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.middle,
+.right {
+    padding: 10px;
+    height: 400px;
+    /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 380px;
+    margin-left: 6%;
+    grid-area: left;
+}
+
+
+.middle {
+    width: 380px;
+    grid-area: middle;
+}
+
+.right {
+    width: 380px;
+    grid-area: right;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .grid2-container {
+        grid-template-areas:
+
+            'left left left left left left'
+            'middle middle middle middle middle middle'
+            'right right right right right right'
+
+    }
+}
+
+h2.ss {
+    display: grid;
+    margin: auto;
+    width: 100px;
+}
+
+.course {
+    margin: 10% -1%;
+    font-size: 20px;
+}
+
+li.tt {
+    padding: 5% 2%;
+}
+
+.course1 {
+    margin: 6% -1%;
+    font-size: 20px;
+}
+
+.left,
+.middle,
+.right :hover {
+    cursor: pointer;
+
+}
+
+/* The grid container */
+.gridw-container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    margin: 9% 0%;
+    grid-template-areas:
+
+        'left left middle middle right right'
+
+        /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.middle,
+.right {
+    padding: 10px;
+    height: 400px;
+    /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 380px;
+    margin-left: 6%;
+    grid-area: left;
+}
+
+
+.middle {
+    width: 380px;
+    grid-area: middle;
+}
+
+.right {
+    width: 380px;
+    grid-area: right;
+}
+
+
+.right:hover {
+    scale: 101%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px;
+}
+
+.middle:hover {
+    scale: 101%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px;
+}
+
+.left:hover {
+    scale: 101%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .gridw-container {
+        grid-template-areas:
+
+            'left left left left left left'
+            'middle middle middle middle middle middle'
+            'right right right right right right'
+
+    }
+}
+
+p.paraa {
+
+    font-size: 23px;
+    color: #ffffff;
+}
+
+button.button2 {
+    margin: auto;
+    width: 48%;
+    height: 5vh;
+    border-radius: 12px;
+    margin: 2% 2%;
+}
+
+b {
+    color: black;
+}
+
+@media(max-width:1075px) {
+    #U {
+        width: 19%;
+        font-size: 17px;
+    }
+
+    pre {
+        font-size: 13px;
+    }
+
+    #M {
+        width: 21%;
+        font-size: 16px;
+    }
+
+    input[type="button"] {
+        font-size: 18px;
+    }
+
+    .boxa {
+        padding-top: 12%;
+        font-size: 21px;
+        margin-left: 5%;
+    }
+
+    h#wel {
+        position: absolute;
+        margin-top: -8%;
+    }
+
+    p#wel1 {
+        font-size: 22px;
+    }
+
+    img#scre {
+        height: 164px;
+    }
+
+    p#scre {
+        padding: 1% 5%;
+        font-size: 17px;
+    }
+
+    p#pirin {
+
+        padding: 1% 5%;
+        font-size: 17px;
+    }
+    p#head {
+        padding: 1% 5%;
+        FONT-SIZE: 17PX;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 209px;
+        height: 100px;}
+        pre.ee {
+            font-size: 20px;
+        }
+        .right {
+            width: 310px;
+            grid-area: right;
+        }
+        .middle {
+            width: 310px;
+            grid-area: middle;
+        }
+        p.paraa {
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .left {
+            width: 310px;
+            margin-left: 6%;
+            grid-area: left;
+        }
+        
+}
+@media(max-width:1050px){
+    b {
+        color: black;
+        font-size: 22px;
+    }
+    pre {
+        font-size: 12px;
+    }h2.evet {
+        font-size: 17px;
+    }
+    b {
+        color: black;
+        font-size: 16px;
+    }
+    h#wel {
+        position: absolute;
+        margin: -6% 15%;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 197px;
+        height: 100px;
+    }
+    pre.ee {
+        font-size: 19px;
+    }
+    ul {
+        gap: 4px;
+    }
+}
+@media(max-width:1000px){
+    pre {
+        font-size: 11px;
+    }
+    ul {
+        gap: 0px;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 189px;
+        height: 100px;
+    }
+    h2.hodi {
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 3%;
+    }
+    h2.princes {
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 3%;
+    
+}
+h2.secre {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 3%;
+}
+.right {
+    width: 295px;
+    grid-area: right;
+}
+.middle {
+    width: 295px;
+    grid-area: middle;
+}.left {
+    width: 295px;
+    margin-left: 4%;
+    grid-area: left;
+}
+}
+@media(max-width:950px){
+    
+    .navi1 a {
+        color: #ffffff;
+        font-size: 13px;}
+        p#wel1 {
+            font-size: 20px;
+            margin-top: 5%;
+        }
+        h#wel {
+        position: absolute;
+        font-size: 30px;
+        margin: -2% 15%;
+    }
+    p#head {
+        padding: 1% 5%;
+        FONT-SIZE: 16PX;
+    }
+    p#pirin {
+        padding: 1% 5%;
+        font-size: 16px;
+    }
+    p#scre {
+        padding: 1% 5%;
+        font-size: 16px;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 179px;
+        height: 100px;
+    }
+    pre.ee {
+        font-size: 19px;
+        margin-left: -26%;
+    }
+    .left,
+    .middle,
+    .right {
+        width: 290px;
+        /* grid-area: right; */
+    }
+}
+@media(max-width:900px){
+    #M {
+        width: 20%;
+        font-size: 13px;
+    }
+    #U {
+        width: 19%;
+        font-size: 14px;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 171px;
+        height: 100px;
+    }
+    pre.ee {
+        font-size: 17px;
+        margin-left: -32%;
+    }
+    .left, .middle, .right {
+        width: 270px;
+        /* grid-area: right; */
+    }
+    .left {
+      margin-left: 0%;
+     
+    }
+    .boxa {
+        padding-top: 12%;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    pre#lorem3 {
+        display: none;
+    }
+    h2.evet {
+        font-size: 17px;
+        display: none;
+    }
+    pre#lorem {
+        display: none;
+    }
+    .boxaaa {
+        display: block;
+    }
+    b {
+        color: black;
+        font-size: 19px;
+    }
+    pre {
+        font-size: 11px;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 30px;
+        margin: -2% 12%;
+    }
+    p.paraa {
+        font-size: 19px;
+        color: #ffffff;
+    }
+}
+@media(max-width:850px){
+    #M {
+        width: 19%;
+        font-size: 12px;
+    }
+    input[type="button"] {
+        font-size: 15px;
+    }
+    #U {
+        width: 18%;
+        font-size: 12px;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 158px;
+        height: 100px;
+    }
+    .navi1 a {
+        color: #ffffff;
+        font-size: 11px;}
+        .boxa {
+            font-size: 16px;
+        }
+        p#wel1 {
+            font-size: 20px;
+            margin-top: 12%;
+        }
+        h#wel {
+            position: absolute;
+            font-size: 30px;
+            margin: 2% 8%;
+        }
+}
+@media(max-width:800px){
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 150px;
+        height: 100px;
+    }
+    pre.ee {
+        font-size: 16px;
+        margin-left: -32%;
+    }
+    h2.secre {
+        text-align: center;
+        font-size: 22px;
+        padding-bottom: 3%;
+    }
+    p#scre {
+        padding: 1% 5%;
+        font-size: 15px;
+    }
+    h2.princes {
+        text-align: center;
+        font-size: 21px;
+        padding-bottom: 3%;
+    }
+    p#pirin {
+        padding: 1% 5%;
+        font-size: 15px;
+    }
+    p#head {
+        padding: 1% 5%;
+        FONT-SIZE: 15PX;
+    }
+    h2.hodi {
+        text-align: center;
+        font-size: 21px;
+        padding-bottom: 3%;
+    }
+    .left, .middle, .right {
+        width: 246px;
+        /* grid-area: right; */
+    }
+    p#wel1 {
+        font-size: 18px;
+        margin-top: 17%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 28px;
+        margin: 6% 8%;
+    }
+}
+@media(max-width:750px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 10px;
+    }
+    input[type="button"] {
+        font-size: 11px;
+        width: 10%;
+    }
+    #M {
+        width: 19%;
+        font-size: 9px;
+    }
+    #U {
+        width: 18%;
+        font-size: 10px;
+    }
+    p#wel1 {
+        font-size: 18px;
+        margin-top: 20%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 28px;
+        margin: 8% 4%;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 136px;
+        height: 90px;
+    }
+    pre.ee {
+        font-size: 14px;
+        margin-left: -32%;
+    }
+    .left, .middle, .right {
+        width: 215px;
+        /* grid-area: right; */
+    }
+    h2.ss {
+        display: grid;
+        margin: auto;
+        font-size: 21px;
+        width: 100px;
+    }
+    li.tt {
+        padding: 5% 2%;
+        font-size: 16px;
+    }
+    p.paraa {
+        font-size: 17px;
+        color: #ffffff;
+    }
+    pre {
+        /* display: none; */
+    }
+    p#head {
+        padding: 1% 5%;
+        FONT-SIZE: 14PX;
+    }
+    p#pirin {
+        padding: 1% 5%;
+        font-size: 14px;
+    }
+    p#scre {
+        padding: 1% 5%;
+        font-size: 14px;
+    }
+    pre#lorem1 {
+        display: none;
+    }
+}
+@media(max-width:700px){
+    pre#lorem1 {
+        display: none;
+    }
+    .navi1 a {
+        color: #ffffff;
+        font-size: 9px;
+    }
+    p#wel1 {
+        font-size: 15px;
+        margin-top: 30%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 28px;
+        margin: 17% 3%;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 125px;
+        height: 90px;
+    }
+    pre.ee {
+        font-size: 13px;
+        margin-left: -32%;
+    }
+    h2.secre {
+        text-align: center;
+        font-size: 19px;
+        padding-bottom: 3%;
+    }
+    h2.princes {
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 3%;
+    }
+    h2.hodi {
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 3%;
+    }
+}
+@media(max-width:650px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 8px;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 114px;
+        height: 80px;
+    }
+    pre.ee {
+        font-size: 11px;
+        margin-left: -32%;
+    }
+    .left, .middle, .right {
+        width: 186px;
+        /* grid-area: right; */
+    }
+    h2.ss {
+        display: grid;
+        margin: auto;
+        font-size: 17px;
+        width: 100px;
+    }
+    p.paraa {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 26px;}
+
+}
+@media(max-width:550px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 6px;
+    }
+    #M {
+        width: 19%;
+        font-size: 8px;
+        display: none;
+    }
+    input[type="button"] {
+        font-size: 11px;
+        width: 13%;
+    }
+    #U {
+        width: 19%;
+        font-size: 8px;
+    }
+    p#wel1 {
+        font-size: 15px;
+        margin-top: 40%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 23px;
+        margin: 22% 6%;
+    }
+    h2.secre {
+        text-align: center;
+        font-size: 16px;
+        padding-bottom: 3%;
+    }
+    p#scre {
+        padding: 1% 5%;
+        font-size: 12px;
+    }
+    p#pirin {
+        padding: 1% 5%;
+        font-size: 12px;
+    }
+    p#head {
+        padding: 1% 5%;
+        FONT-SIZE: 12PX;
+    }
+    .left {
+        width: 312px;
+        margin-left: 18%;
+    }
+    .left, .middle, .right {
+        width: 312px;
+        /* grid-area: right; */
+        margin-left: 17%;
+
+    }
+ #slider{
+    display: none;
+ }   
+ #slider2{
+    display: block;
+ }
+ #slider2 {
+    display: block;
+    width: 81%;
+    position: absolute;
+    height: 68vh;
+}
+.fourthcont {
+    width: 100%;
+    height: 272vh;
+}
+.grid-container>div {
+    background-color: rgba(107, 92, 243, 0.8);
+    text-align: center;
+    width: 106px;
+    height: 62px;
+}
+pre.ee {
+    font-size: 10px;
+    margin-left: -33%;
+}
+b {
+    color: black;
+    font-size: 16px;
+}
+.left, .middle, .right {
+    width: 312px;
+    /* grid-area: right; */
+    margin-left: 17%;
+    margin-top: 5%;
+}
+p.paraa {
+    font-size: 21px;
+    color: #ffffff;
+}
+b#tan {
+    color: black;
+    font-size: 19px;
+}
+}
+@media(max-width:550px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 6px;
+    }
+    #M {
+        width: 19%;
+        font-size: 8px;
+        display: none;
+    }
+    input[type="button"] {
+        font-size: 11px;
+        width: 13%;
+    }
+    #U {
+        width: 19%;
+        font-size: 8px;
+    }
+    .boxa {
+        font-size: 16px;
+        padding-top: 24%;
+    }
+    img#scre1 {
+        height: 28vh;
+        width: 91%;
+    }
+    img#scre {
+        height: 149px;
+    }
+    img#scre2 {
+        height: 28vh;
+        width: 91%;
+    }
+    h2.princes {
+        text-align: center;
+        font-size: 15px;}
+        h2.hodi {
+            text-align: center;
+            font-size: 15px;
+            padding-bottom: 3%;
+        }
+        .grid-container>div {
+            background-color: rgba(107, 92, 243, 0.8);
+            text-align: center;
+            width: 95px;
+            height: 48px;
+            margin-left: 0%;
+            padding: 10% 17px;
+        }
+        h#wel {
+            position: absolute;
+            font-size: 20px;
+            margin: 31% 5%;
+        }
+        a {
+            font-size: 12px;
+        }
+        .boxa {
+            font-size: 13px;
+            padding-top: 24%;
+        }
+       
+}
+@media(max-width:500px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 5px;
+    }
+    .boxa {
+        font-size: 11px;
+        padding-top: 37%;
+    }p#wel1 {
+        font-size: 12px;
+        margin-top: 58%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 19px;
+        margin: 44% 3%;
+    }
+    img#scre {
+        height: 144px;
+        width: 136px;
+    }
+    h2.secre {
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 3%;
+    }
+    img#scre1 {
+        height: 26vh;
+        width: 91%;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 87px;
+        height: 48px;
+        margin-left: 0%;
+        padding: 9% 13px;
+    }
+    pre.ee {
+        font-size: 9px;
+        margin-left: -20%;
+        margin-top: 4%;
+    }
+    p{
+        font-weight: bold;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+        font-size: 17px;
+    }
+    li.tt {
+        padding: 5% 2%;
+        font-size: 14px;
+    }
+    h2.princes {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+    h2.hodi {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+}
+@media(max-width:450px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 4px;
+    }
+    p {
+        font-weight: bold;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+        font-size: 9px;
+    }
+    #U {
+        width: 22%;
+        font-size: 8px;
+    }
+    input[type="button"] {
+        font-size: 8px;
+        width: 11%;
+        height: 5vh;
+    }
+    p#wel1 {
+        font-size: 12px;
+        margin-top: 69%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 17px;
+        margin: 47% 3%;
+    }
+    img#scre {
+        height: 130px;
+        width: 116px;
+    }
+    img#scre1 {
+        height: 25vh;
+        width: 91%;
+    }
+    img#scre2 {
+        height: 25vh;
+        width: 90%;
+    }
+    p#pirin {
+        padding: 1% 5%;
+        font-size: 10px;
+    }
+    p#scre {
+        padding: 1% 5%;
+        font-size: 10px;
+    }
+    p#head {
+        padding: 1% 5%;
+        FONT-SIZE: 10PX;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 74px;
+        height: 45px;
+        margin-left: 0%;
+        padding: 9% 8px;
+    }
+    b{
+        font-size: 10px;
+    }
+    pre.ee {
+        font-size: 8px;
+        margin-left: -20%;
+        margin-top: 4%;
+    }
+    p.paraa {
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+}
+@media(max-width:400px){
+    .navi1 a {
+        color: #ffffff;
+        font-size: 3px;
+    }
+    a {
+        font-size: 8px;
+    }
+    .boxa {
+        font-size: 9px;
+        padding-top: 53%;
+    }
+    img#scre {
+        height: 130px;
+        width: 106px;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 15px;
+        margin: 57% 3%;
+    }
+    p#wel1 {
+        font-size: 12px;
+        margin-top: 74%;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 68px;
+        height: 45px;
+        margin-left: 0%;
+        padding: 9% 6px;
+    }
+    
+    
+   
+    
+    pre.ee {
+
+        font-size: 7px;
+        margin-left: -20%;
+        margin-top: 4%;
+    }
+    b {
+        font-size: 7px;
+    }
+    .left, .middle, .right {
+        width: 312px;
+        /* grid-area: right; */
+        margin-left: 6%;
+        margin-top: 5%;
+    }    
+
+}
+
+@media(max-width:350px){
+    #U {
+        width: 21%;
+        font-size: 6px;
+    }
+    input[type="button"] {
+        font-size: 6px;
+        width: 11%;
+        height: 5vh;
+    }
+    p {
+        font-weight: bold;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+        font-size: 5px;
+    }
+    .boxa {
+        font-size: 6px;
+        padding-top: 70%;
+    }
+    p#wel1 {
+        font-size: 12px;
+        margin-top: 94%;
+    }
+    h#wel {
+        position: absolute;
+        font-size: 13px;
+        margin: 77% 3%;
+    }
+    img#scre {
+        height: 115px;
+        width: 90px;
+    }
+    img#scre1 {
+        height: 22vh;
+        width: 89%;
+    }
+    img#scre2 {
+        height: 22vh;
+        width: 89%;
+    }
+    .grid-container>div {
+        background-color: rgba(107, 92, 243, 0.8);
+        text-align: center;
+        width: 58px;
+        height: 45px;
+        margin-left: 0%;
+        padding: 9% 6px;
+    }
+    pre.ee {
+        font-size: 6px;
+        margin-left: -20%;
+        margin-top: 4%;
+    }
+    b {
+        font-size: 6px;
+    }.left, .middle, .right {
+        width: 282px;
+        /* grid-area: right; */
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+    p {
+        font-size: 14px;
+    }
+}

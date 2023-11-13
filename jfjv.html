@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    /* align-items: center; */
+    /* margin-left: 16%; */
+    /* border: 1PX solid black; */
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 230px;
+    margin-top: 0%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(4, 4, 44);
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+
+
+
+
+.checkbtn {
+    font-size: 20px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+
+#check {
+    display: none;
+}
+
+.logo img {
+    margin-top: -4.5%;
+    height: 180px;
+    cursor: pointer;
+    margin-left: -2.5%;
+}
+
+#si:hover{
+    background-color:white;
+    border: none;
+    color: black;
+}
+
+#si{
+    margin-left: 265%;
+    height: 35px;
+    width: 110%;
+    border: .5px solid rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+    font-family: serif;
+    margin-top: .7%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+@media (max-width:898px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+        margin-left: 0px;
+        /* height: 60px; */
+
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(250, 14, 14);
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    #find {
+        display: none;
+    }
+
+    .ri-search-line {
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin-left: 10%;
+    }
+
+    nav ul li a {
+        margin-right: 60px;
+        font-size: 20px;
+        background-color: black;
+        color: black;
+    }
+
+    nav ul li a:hover {
+        background: black;
+        color: white;
+    }
+
+    a:hover,
+    a.active {
+        background: black;
+        color: black;
+    }
+
+   
+}
+
+</style>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="fimage/nav flight.png" alt="logo"></label>
+        <ul>
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="index1.html">FLIGHTS</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="index3.html">CONTACT</a></li>
+          <!-- <li><a href="index7.html" id="log"><button id="l" type="button">Log in</button></li></a> -->
+          <li><a href="#"><button id="si" type="button">Sign up</button></li></a>
+          <li><img id="move" src="fimage/move.png" alt="m"></li>
+          <!-- <input type="text" name="search" id="find" placeholder="SEARCH HERE.....">
+          <i class="ri-search-line"></i> -->
+    
+        </ul>
+      </nav>
+</body>
+</html>
